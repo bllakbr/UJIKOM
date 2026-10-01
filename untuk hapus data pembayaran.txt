@@ -1,0 +1,6 @@
+USE pembayaran_spp_siswa_db;
+
+START TRANSACTION;
+DELETE FROM tb_pembayaran;
+DELETE FROM tb_siswa;
+COMMIT;
